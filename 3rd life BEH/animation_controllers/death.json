@@ -1,0 +1,29 @@
+{
+ "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.death": {
+    "states": {
+      "default": {
+        "transitions": [
+          {
+            "alive": "query.is_alive"
+          }
+        ],
+        "on_entry": [
+          "/tag @s add dead"
+        ]
+      },
+      "alive": {
+        "transitions": [
+          {
+            "default": "!query.is_alive"
+          }
+        ],
+        "on_entry": [
+          
+        ]
+      }
+    }
+  }
+ }
+}

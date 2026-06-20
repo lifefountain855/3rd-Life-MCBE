@@ -1,0 +1,57 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.health_ones": {
+      "arrays": {
+        "textures": {
+          "array.health": [
+            "texture.zero_ones_health",
+            "texture.one_ones_health",
+            "texture.two_ones_health",
+            "texture.three_ones_health"
+          ]
+        }
+      },
+      "geometry": "Geometry.health_ones",
+      "materials": [
+        {
+          "*": "Material.emissive"
+        }
+      ],
+      //modulo function seems to be invalid inside arrays for 1.16.40 and below, so a temp has to be created outside of the array expression
+      "textures": [
+        "array.health[q.scoreboard('beam_level')]"
+      ], //clamp to 99
+      "is_hurt_color": {},
+      "on_fire_color": {},
+      "light_color_multiplier": 1.25,
+      "ignore_lighting": true
+    },
+    "controller.render.health_ones_sneaking": {
+      "arrays": {
+        "textures": {
+          "array.health": [
+            "texture.zero_ones_health",
+            "texture.one_ones_health",
+            "texture.two_ones_health",
+            "texture.three_ones_health"
+          ]
+        }
+      },
+      "geometry": "Geometry.health_ones",
+      "materials": [
+        {
+          "*": "Material.alphablend"
+        }
+      ],
+      //modulo function seems to be invalid inside arrays for 1.16.40 and below, so a temp has to be created outside of the array expression
+      "textures": [
+        "array.health[q.scoreboard('lives')]"
+      ], //clamp to 99
+      "is_hurt_color": {},
+      "on_fire_color": {},
+      "light_color_multiplier": 1.25,
+      "ignore_lighting": true
+    }
+  }
+}

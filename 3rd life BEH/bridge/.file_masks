@@ -1,0 +1,14 @@
+{
+	"RP/entity/head.json": {
+		"data": {}
+	},
+	"RP/render_controllers/head.render.json": {
+		"data": {}
+	},
+	"BP/entities/head.json": {
+		"data": {}
+	},
+	"RP/models/entity/head.geo.json": {
+		"data": {}
+	}
+}
