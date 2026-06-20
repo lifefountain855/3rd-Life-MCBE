@@ -1,0 +1,53 @@
+{
+	"file_path": "C:\\Users\\happy\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\3rd life RES\\models\\entity\\head.geo.json",
+	"file_type": "entity_model",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.12.0",
+		"minecraft:geometry": [
+			{
+				"description": {
+					"identifier": "geometry.head",
+					"texture_width": 64,
+					"texture_height": 64,
+					"visible_bounds_width": 2,
+					"visible_bounds_height": 2.5,
+					"visible_bounds_offset": [
+						0,
+						0.75,
+						0
+					]
+				},
+				"bones": [
+					{
+						"name": "body",
+						"pivot": [
+							0,
+							0,
+							0
+						],
+						"cubes": [
+							{
+								"origin": [
+									-5,
+									0,
+									-5
+								],
+								"size": [
+									10,
+									14,
+									10
+								],
+								"uv": [
+									0,
+									0
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"file_uuid": "a6df0bdb_1029_45ef_bbdf_abb60ba9da52"
+}

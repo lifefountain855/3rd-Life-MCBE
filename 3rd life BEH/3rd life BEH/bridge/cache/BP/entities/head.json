@@ -1,0 +1,45 @@
+{
+	"file_path": "C:\\Users\\happy\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\3rd life BEH\\entities\\head.json",
+	"file_type": "entity",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.16.0",
+		"minecraft:entity": {
+			"description": {
+				"identifier": "bridge:head",
+				"is_summonable": true,
+				"is_spawnable": true,
+				"is_experimental": false
+			},
+			"components": {
+				"minecraft:custom_hit_test": {
+					"hitboxes": [
+						{
+							"pivot": [
+								0,
+								100,
+								0
+							],
+							"width": 0,
+							"height": 0
+						}
+					]
+				},
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"deals_damage": false
+					}
+				},
+				"minecraft:pushable": {
+					"is_pushable": false,
+					"is_pushable_by_piston": false
+				},
+				"minecraft:collision_box": {
+					"width": 0.0001,
+					"height": 0.0001
+				}
+			}
+		}
+	},
+	"file_uuid": "1fdbadd3_a9ca_495e_86f3_6142c7c0bc5e"
+}
